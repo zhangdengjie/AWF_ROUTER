@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AWF_ROUTER</string>
+    <string name="title_activity_common">CommonActivity</string>
+</resources>

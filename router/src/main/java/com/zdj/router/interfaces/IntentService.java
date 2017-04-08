@@ -15,6 +15,19 @@ public interface IntentService {
     @RequestCode(100)
     void toModuleAActivity(@Key("platform") String platform, @Key("year") int year);
 
+
+    @ClassName("com.zdj.modulb.MainActivity")
+    @RequestCode(100)
+    void toModuleBActivity(@Key("platform") String platform, @Key("year") int year);
+
+    @ClassName("com.zdj.awf_router.MainActivity")
+    @RequestCode(100)
+    void toMainModuleActivity(@Key("platform") String platform, @Key("year") int year);
+
+    @ClassName("com.zdj.commonmodule.CommonActivity")
+    @RequestCode(100)
+    void toCommonActivity(@Key("platform") String platform, @Key("year") int year);
+
     @ClassName("android.router.literouter.ActivityDemo2")
     IntentWrapper intent2ActivityDemo2Raw(@Key("platform") String platform, @Key("year") int year);
 }

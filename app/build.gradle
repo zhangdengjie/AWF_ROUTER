@@ -30,4 +30,5 @@ dependencies {
     compile project(':router')
     compile project(':modulea')
     compile project(':moduleb')
+    compile project(':commonmodule')
 }
